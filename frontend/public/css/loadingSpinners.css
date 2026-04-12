@@ -352,7 +352,7 @@ body > .loader.done {
 /* Standard portrait mobile responsive fix                                   */
 /* -------------------------------------------------------------------------- */
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .loader--placeholder.loader--large .placeholder-item {
         width: 100%;
         min-width: auto;
