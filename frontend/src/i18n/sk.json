@@ -1,6 +1,7 @@
 {
   "buttons": {
     "copySuccess": "Skopírované do schránky!",
+    "copyFailed": "Kopírovanie do schránky zlyhalo",
     "copyFile": "Kopírovať súbor",
     "copyToClipboard": "Kopírovať do schránky",
     "moveFile": "Presunúť súbory",
@@ -215,8 +216,6 @@
     "selectHashAlgorithm": "Výber algoritmu hash",
     "generate": "Generovať",
     "errorGeneratingHash": "Chyba pri generovaní hash",
-    "hashCopied": "Hash skopírovaný do schránky",
-    "errorCopyingHash": "Chyba pri kopírovaní hash",
     "token": "Token",
     "onlyOfficeId": "IbaOffice ID",
     "firstLoadTitle": "Vitajte v programe FileBrowser Quantum!",
@@ -227,7 +226,6 @@
     "renameSuccess": "Položka bola úspešne premenovaná!",
     "newFileSuccess": "Súbor bol úspešne vytvorený!",
     "newDirSuccess": "Adresár bol úspešne vytvorený!",
-    "copyToClipboardFailed": "Nemožnosť kopírovania do schránky",
     "moveFailed": "Presun zlyhal",
     "operationFailed": "Operácia zlyhala",
     "partialSuccess": "Niektoré operácie zlyhali: {succeeded} sa podarilo, {failed} sa nepodarilo",
@@ -243,7 +241,7 @@
     "unarchiveDestination": "Výpis na:",
     "unarchiveSuccess": "Archív úspešne extrahovaný!",
     "downloadFailed": "Sťahovanie po častiach zlyhalo - ak sa to opakuje, skúste zmenšiť veľkosť časti: {message}",
-    "confirmPasswordToChangeUserPassword": "Zadajte svoje aktuálne heslo, aby ste autorizovali túto zmenu hesla."
+    "confirmPasswordToSaveUser": "Zadajte svoje aktuálne heslo, aby ste tieto zmeny používateľa uložili."
   },
   "search": {
     "smallerThan": "Menšie ako:",
@@ -544,7 +542,8 @@
     "enabledSuccessfully": "OTP úspešne povolený",
     "verificationFailed": "Overenie sa nepodarilo",
     "verificationSucceed": "Overovanie Úspech",
-    "generationFailed": "Generácia zlyhala"
+    "generationFailed": "Generácia zlyhala",
+    "passwordRequiredForGeneration": "Na vygenerovanie autentifikačného kódu je potrebné vaše heslo."
   },
   "general": {
     "name": "Názov",
@@ -845,8 +844,6 @@
       "showingResults": "Zobrazené výsledky {count} ",
       "noResults": "Nenašli sa žiadne ikony",
       "tryDifferentSearch": "Skúste použiť iný vyhľadávací výraz",
-      "copiedToClipboard": "Skopírované '{name}' do schránky!",
-      "copyFailed": "Nepodarilo sa skopírovať do schránky",
       "custom": "Vlastné",
       "useCustomIcon": "Použite vlastnú ikonu: {name}",
       "iconLibraryUrl": "fonts.google.com/icons",
